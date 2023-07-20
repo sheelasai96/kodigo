@@ -1,0 +1,109 @@
+TASKS
+12-07
+creating a table in html
+<table>
+<font family
+face,size,color>
+border means thickness of outer table border
+tr-table row
+th-table heading
+td-table description
+
+padding means around a element
+<h1>-head tags
+<p>,</p>-pair tags
+<br>-unpairtags
+<b></b>-bold
+<strong></strong>-bold
+<i></i>-italic font or<em></em>
+mark tag-<mark></mark>
+small tag-<small></small>
+strick tag-<strick> or<del>
+underline-<u>
+square roots-a<sup>2</sup>-super
+sub roots-a<sub>2</sub>-sub
+double quotes-<q></q>
+abbreviation tag-<abbr title="water">h20</abbr>
+order list and unorder list
+13-07
+<hr>-for line horizontal line
+																						
+17-07
+C:\Users\whynew.in\cd Documents
+
+C:\Users\whynew.in\Documents\cd my_project
+
+C:\Users\whynew.in\Documents\my_project>python -m venv env
+
+C:\Users\whynew.in\Documents\my_project>
+C:\Users\whynew.in\Documents\my_project>env
+'env' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\whynew.in\Documents\my_project>env\Scripts\activate
+
+(env) C:\Users\whynew.in\Documents\my_project>pip install django
+
+(env) C:\Users\whynew.in\Documents\my_project>django-admin startproject my_project
+
+(env) C:\Users\whynew.in\Documents\my_project>cd my_project
+
+(env) C:\Users\whynew.in\Documents\my_project\my_project>python manage.py runserver
+
+(env) C:\Users\whynew.in\Documents\my_project\my_project>python manage.py startapp pages
+
+(env) C:\Users\whynew.in\Documents\my_project\my_project>
+
+(env) C:\Users\whynew.in\Documents\my_project\project>cd pages
+
+(env) C:\Users\whynew.in\Documents\my_project\project\pages>md template
+
+19-07
+
+C:\Users\whynew.in>cd Documents
+
+C:\Users\whynew.in\Documents>md web
+
+C:\Users\whynew.in\Documents>cd web
+
+C:\Users\whynew.in\Documents\web>python -m venv project
+
+C:\Users\whynew.in\Documents\web>project\scripts\activate
+
+(project) C:\Users\whynew.in\Documents\web>pip install django
+Collecting django
+  Using cached Django-4.2.3-py3-none-any.whl (8.0 MB)
+Collecting asgiref<4,>=3.6.0
+  Using cached asgiref-3.7.2-py3-none-any.whl (24 kB)
+Collecting sqlparse>=0.3.1
+  Using cached sqlparse-0.4.4-py3-none-any.whl (41 kB)
+Collecting tzdata
+  Using cached tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.7.2 django-4.2.3 sqlparse-0.4.4 tzdata-2023.3
+
+[notice] A new release of pip available: 22.3.1 -> 23.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(project) C:\Users\whynew.in\Documents\web>django-admin startproject pro1
+
+(project) C:\Users\whynew.in\Documents\web>cd pro1
+
+(project) C:\Users\whynew.in\Documents\web\pro1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 19, 2023 - 12:54:22
+Django version 4.2.3, using settings 'pro1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[19/Jul/2023 12:54:39] "GET / HTTP/1.1" 200 10664
+Not Found: /favicon.ico
+[19/Jul/2023 12:54:39] "GET /favicon.ico HTTP/1.1" 404 2108
+
+(project) C:\Users\whynew.in\Documents\web\pro1>django-admin startapp pages
